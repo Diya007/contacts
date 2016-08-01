@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" tyep="text/css" href="main.css">
+</head>
+<body>
+	<h1>Contacts</h1>
+	<h2>Add a contact:</h2>
+
+	<form class = "addNew" action="#">
+		
+		<h4>First name</h4>
+		<input type="text" id="firstName" name="firstName" required>
+
+		<h4> Last name</h4>
+		<input type="text" id="lastName" name="lastName" required>
+
+		<h4>Phone Number</h4>
+		<input type="text" id="phoneNumber" name="phoneNumber" required>
+
+		<h4>Street</h4>
+		<input type="text" id="street" name="street" required>
+		
+		<h4>City</h4>
+		<input type="text" id="city" name="city" required>
+
+		<h4>State</h4>
+		<input type="text" id="state" name="state" required>
+		
+		<div class="addButton">
+		<input type="submit" id="add">
+		</div></br>
+	</form>
+
+
+
+	<div class="contact">
+		<h2>Contacts:</h2>
+		<ul id="contactList"></ul>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+	<script src="main.js"></script>	
+
+</body>
+</html>
